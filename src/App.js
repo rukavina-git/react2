@@ -1,11 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
+import UseStateBasic from './tutorial/1-useState/setup/5-useState-counter'
 function App() {
   return (
     <div className='container'>
-      <h2>Advanced Tutorial</h2>
+      <h2>
+        <UseStateBasic />
+      </h2>
     </div>
   )
 }
 
 export default App
-//test
